@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: nijkah's blog
+title: Learn to Learn
 subtitle:
-description:
+description: studying what learning is
 author: Hakjin Lee
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -16,7 +16,8 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
 baseurl: 
-permalink: pretty
+# permalink: pretty
+permalink: /:categories/:year-:month-:day-:title/
 
 # Pagination
 paginate: 10
@@ -213,7 +214,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
+  Github: https://github.com/nijkah
   #LinkLabel: Link
 
 
@@ -228,7 +230,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  # Weibo: weibo
 
 
 # Sidebar Avatar
