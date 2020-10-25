@@ -234,9 +234,8 @@ social_icons:
 
 
 # Sidebar Avatar
-in directory: /assets/images/barbapapa.jpg
-#avatar:
-
+# in directory: /assets/images/avatar.gif
+avatar: "/assets/images/barbapapa.jpg"
 
 # Table Of Contents in the Sidebar
 toc:
