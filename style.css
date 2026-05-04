@@ -160,6 +160,10 @@ a.research-proj-title:hover { text-decoration: underline; }
   color: #888;
   font-size: 12px;
 }
+.exp-context {
+  color: #777;
+  font-style: italic;
+}
 
 /* ---------- Projects grid ---------- */
 .projects-grid {
