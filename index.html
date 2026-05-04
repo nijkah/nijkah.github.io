@@ -1,3 +1,280 @@
----
-layout: index
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hakjin Lee</title>
+  <meta name="description" content="Hakjin Lee — Research Engineer at PIT IN Corp. Robotics, computer vision, deep learning systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">Hakjin Lee</a>
+    <nav>
+      <a href="#top">Home</a>
+      <a href="#updates">Updates</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="profile" class="section">
+    <img src="images/profile.jpeg" alt="Hakjin Lee">
+    <div class="profile-text">
+      <h1>Hakjin Lee</h1>
+      <p class="title">Research Engineer at <a href="https://pitin-ev.com" target="_blank" rel="noopener">PIT IN Corp.</a></p>
+      <p>
+        I study how learning systems can reliably act in the physical world under limited experience.
+        At <a href="https://pitin-ev.com" target="_blank" rel="noopener">PIT IN Corp.</a>, my research
+        centers on 3D vision for robotics &mdash; primarily stereo vision and object pose estimation
+        &mdash; and on robot learning, motivated by the goal of building real products and services
+        that interact with the physical world.
+      </p>
+      <p>
+        Previously, I was at <a href="https://www.si-analytics.ai" target="_blank" rel="noopener">SI Analytics</a>
+        and <a href="https://www.satreci.com" target="_blank" rel="noopener">Satrec Initiative</a>,
+        where I worked on remote sensing computer vision: synthetic data augmentation for change detection,
+        rotated detection transformers, and spatiotemporal models for weather forecasting. I also contribute
+        to the <a href="https://github.com/open-mmlab" target="_blank" rel="noopener">OpenMMLab</a>
+        open-source ecosystem.
+      </p>
+      <p class="contact">
+        <span>hj <em>at</em> pitin-ev <em>dot</em> com</span>
+        &nbsp;&bull;&nbsp;
+        <a href="https://scholar.google.com/citations?user=GIdEXLsy77UC&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        &nbsp;&bull;&nbsp;
+        <a href="https://github.com/nijkah" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+    <div class="clear"></div>
+  </section>
+
+  <section id="updates" class="section">
+    <h2>Updates</h2>
+    <ul class="news-list">
+      <li><span class="news-date">2026</span> &ndash; <em>Distributional Stability of Tangent-Linearized Gaussian Inference on Smooth Manifolds</em> accepted to IEEE RA-L 2026.</li>
+      <li><span class="news-date">2026</span> &ndash; <em>You Only Pose Once</em> accepted to ICRA 2026.</li>
+      <li><span class="news-date">2025</span> &ndash; <em>RHINO</em> (Hausdorff distance matching with adaptive query denoising) published at WACV 2025.</li>
+      <li><span class="news-date">2024</span> &ndash; <em>Masked Autoregressive Model for Weather Forecasting</em> released on arXiv.</li>
+      <li><span class="news-date">2023</span> &ndash; <em>Self-pair</em> published at WACV 2023.</li>
+    </ul>
+  </section>
+
+  <section id="research" class="section research">
+    <h2>Research</h2>
+
+    <div class="research-proj">
+      <a class="research-thumb" href="https://github.com/mikigom/StabilityTLGaussian" target="_blank" rel="noopener">
+        <img src="images/publications/dist-stability.png" alt="Distributional Stability">
+      </a>
+      <div class="research-body">
+        <a class="research-proj-title" href="https://github.com/mikigom/StabilityTLGaussian" target="_blank" rel="noopener">
+          Distributional Stability of Tangent-Linearized Gaussian Inference on Smooth Manifolds
+        </a>
+        <p>
+          Junghoon Seo, <strong>Hakjin Lee</strong>, Jaehoon Sim<br>
+          <em>IEEE Robotics and Automation Letters (RA-L), 2026</em><br>
+          <a href="https://arxiv.org/abs/2602.19179" target="_blank" rel="noopener">Paper</a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://github.com/mikigom/StabilityTLGaussian" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="research-proj">
+      <a class="research-thumb" href="https://github.com/pitin-ev/YOPO" target="_blank" rel="noopener">
+        <img src="images/publications/yopo.png" alt="YOPO">
+      </a>
+      <div class="research-body">
+        <a class="research-proj-title" href="https://github.com/pitin-ev/YOPO" target="_blank" rel="noopener">
+          You Only Pose Once: A Minimalist's Detection Transformer for Monocular RGB Category-level 9D Multi-Object Pose Estimation
+        </a>
+        <p>
+          <strong>Hakjin Lee</strong>, Junghoon Seo, Jaehoon Sim<br>
+          <em>IEEE International Conference on Robotics and Automation (ICRA), 2026</em><br>
+          <a href="https://mikigom.github.io/YOPO-project-page/" target="_blank" rel="noopener">Project</a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://arxiv.org/abs/2508.14965" target="_blank" rel="noopener">Paper</a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://github.com/pitin-ev/YOPO" target="_blank" rel="noopener">Code</a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://youtu.be/8n0QMGGdnHE" target="_blank" rel="noopener">Video</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="research-proj">
+      <a class="research-thumb" href="https://github.com/SIAnalytics/RHINO" target="_blank" rel="noopener">
+        <img src="images/publications/rhino.png" alt="RHINO">
+      </a>
+      <div class="research-body">
+        <a class="research-proj-title" href="https://github.com/SIAnalytics/RHINO" target="_blank" rel="noopener">
+          Hausdorff Distance Matching with Adaptive Query Denoising for Rotated Detection Transformer (RHINO)
+        </a>
+        <p>
+          <strong>Hakjin Lee</strong>*, MinKi Song*, Jamyoung Koo, Junghoon Seo &nbsp;<span class="equal-note">(* equal contribution)</span><br>
+          <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025</em><br>
+          <a href="https://arxiv.org/abs/2305.07598" target="_blank" rel="noopener">Paper</a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://github.com/SIAnalytics/RHINO" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="research-proj">
+      <a class="research-thumb" href="https://arxiv.org/abs/2409.20117" target="_blank" rel="noopener">
+        <img src="images/publications/maw.png" alt="Masked Autoregressive Weather">
+      </a>
+      <div class="research-body">
+        <a class="research-proj-title" href="https://arxiv.org/abs/2409.20117" target="_blank" rel="noopener">
+          Masked Autoregressive Model for Weather Forecasting
+        </a>
+        <p>
+          Doyi Kim, Minseok Seo, <strong>Hakjin Lee</strong>, Junghoon Seo<br>
+          <em>arXiv preprint arXiv:2409.20117, 2024</em><br>
+          <a href="https://arxiv.org/abs/2409.20117" target="_blank" rel="noopener">Paper</a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://github.com/seominseok0429/Masked-Autoregressive-Model-for-Weather-Forecasting" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="research-proj">
+      <a class="research-thumb" href="https://arxiv.org/abs/2212.10236" target="_blank" rel="noopener">
+        <img src="images/publications/selfpair.png" alt="Self-pair">
+      </a>
+      <div class="research-body">
+        <a class="research-proj-title" href="https://arxiv.org/abs/2212.10236" target="_blank" rel="noopener">
+          Self-pair: Synthesizing Changes from Single Source for Object Change Detection in Remote Sensing Imagery
+        </a>
+        <p>
+          Minseok Seo, <strong>Hakjin Lee</strong>, Yongjin Jeon, Junghoon Seo<br>
+          <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023</em><br>
+          <a href="https://arxiv.org/abs/2212.10236" target="_blank" rel="noopener">Paper</a>
+          &nbsp;&bull;&nbsp;
+          <a href="https://github.com/seominseok0429/Self-Pair-for-Change-Detection" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="research-proj">
+      <a class="research-thumb" href="https://github.com/nijkah/SiamVOS" target="_blank" rel="noopener">
+        <img src="images/publications/siamvos.png" alt="SiamVOS">
+      </a>
+      <div class="research-body">
+        <a class="research-proj-title" href="https://github.com/nijkah/SiamVOS" target="_blank" rel="noopener">
+          End-to-End Trainable Fully-Convolutional Siamese Networks for Video Object Segmentation with Bounding Box
+        </a>
+        <p>
+          <strong>Hakjin Lee</strong><br>
+          <em>M.S. Thesis, Hanyang University, 2020</em><br>
+          <a href="https://github.com/nijkah/SiamVOS" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Selected Projects</h2>
+    <div class="projects-grid">
+      <a class="project-card" href="https://github.com/pitin-ev/YOPO" target="_blank" rel="noopener">
+        <img src="images/projects/yopo.png" alt="YOPO">
+        <h3>YOPO</h3>
+        <p>You Only Pose Once &mdash; minimalist detection transformer for monocular 9D multi-object pose estimation.</p>
+      </a>
+      <a class="project-card" href="https://github.com/SIAnalytics/RHINO" target="_blank" rel="noopener">
+        <img src="images/projects/rhino.png" alt="RHINO">
+        <h3>RHINO</h3>
+        <p>Official implementation of Hausdorff distance matching with adaptive query denoising for rotated DETR (WACV 2025).</p>
+      </a>
+      <a class="project-card" href="https://github.com/SIAnalytics/siatune" target="_blank" rel="noopener">
+        <img src="images/projects/siatune.png" alt="siatune">
+        <h3>siatune</h3>
+        <p>Hyperparameter tuning toolbox for OpenMMLab frameworks &mdash; especially for remote sensing tasks.</p>
+      </a>
+      <a class="project-card" href="https://github.com/nijkah/SiamVOS" target="_blank" rel="noopener">
+        <img src="images/projects/siamvos.png" alt="SiamVOS">
+        <h3>SiamVOS</h3>
+        <p>Video object segmentation requiring only a bounding box.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <ul class="exp-list">
+      <li>
+        <strong>Research Engineer</strong>, <a href="https://pitin-ev.com" target="_blank" rel="noopener">PIT IN Corp.</a>, May 2025 &ndash; Present<br>
+        Research on 6D object pose estimation and imitation learning for robot manipulation.
+      </li>
+      <li>
+        <strong>Research Engineer</strong>, <a href="https://www.si-analytics.ai" target="_blank" rel="noopener">SI Analytics</a>, Sep 2021 &ndash; Mar 2025<br>
+        Built and maintained a deep learning framework ecosystem spanning super-resolution, semantic segmentation, and distributed training. Researched spatial reasoning in vision-language models and few-shot / interactive object detection.
+      </li>
+      <li>
+        <strong>Research Engineer</strong>, <a href="https://www.satreci.com" target="_blank" rel="noopener">Satrec Initiative</a>, Feb 2020 &ndash; Aug 2021<br>
+        Researched object detection for rotated and few-shot regimes. Productionized classification and detection engines (detectron2, mmdetection, DETR) with an MLOps stack on Kubernetes (ArgoCD, MLflow, Ray Tune).
+      </li>
+    </ul>
+  </section>
+
+  <section id="awards" class="section">
+    <h2>Awards</h2>
+    <ul class="awards-list">
+      <li>
+        <strong>OpenMMLab Contributor of the Year</strong>, 2022<br>
+        29 merged PRs across the OpenMMLab ecosystem, including ZeroRedundancyOptimizer support.
+      </li>
+      <li>
+        <strong>3rd Place ($7,500 prize)</strong>,
+        <a href="https://medium.com/@SpaceNet_Project/the-spacenet-8-flood-detection-challenge-announcing-the-winners-c74d4619195b" target="_blank" rel="noopener">SpaceNet 8 Flood Detection Challenge</a>,
+        2022<br>
+        Machine learning for flood detection from satellite imagery (hosted by Maxar &amp; AWS).
+      </li>
+      <li>
+        <strong>6 / 1,900 teams</strong>,
+        <a href="https://iuu.xview.us/" target="_blank" rel="noopener">xView3 Dark Vessel Detection Challenge</a>, 2021<br>
+        Led the team for detecting illegal fishing vessels in synthetic aperture radar imagery; competition hosted by the U.S. Defense Innovation Unit.
+      </li>
+    </ul>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul class="edu-list">
+      <li>
+        <strong>M.S. in Computer Science</strong>, Hanyang University, 2018&ndash;2020<br>
+        Advised by Prof. Jongwoo Lim. Thesis: <em>End-to-End Trainable Fully-Convolutional Siamese Networks for Video Object Segmentation with Bounding Box</em>.
+      </li>
+      <li>
+        <strong>B.A. in Philosophy &amp; B.S. in Computer Science and Engineering</strong>, Hanyang University, 2014&ndash;2018
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<footer id="footer">
+  <p>&copy; <span id="year"></span> Hakjin Lee. Last updated May 2026.</p>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
